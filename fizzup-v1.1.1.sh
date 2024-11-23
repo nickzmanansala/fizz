@@ -6,7 +6,7 @@ VERSION="latest"
 FIZZUP_VERSION="v1.1.1"
 
 # Fizz variables
-GATEWAY_ADDRESS="provider.gpu.gpufarm.xyz" # Provider domain: example = provider.devnetcsphn.com
+GATEWAY_ADDRESS="provider.cpu.gpufarm.xyz" # Provider domain: example = provider.devnetcsphn.com
 GATEWAY_PROXY_PORT="8553" # Proxyport = 8553
 GATEWAY_WEBSOCKET_PORT="8544" # ws url of the gateway example= ws://provider.devnetcsphn.com:8544
 CPU_PRICE="3"
@@ -17,11 +17,11 @@ STORAGE_PRICE="1"
 WALLET_ADDRESS="0x333aDe84Ed5a9079e0982D66D042Ae40C92689C5" 
 USER_TOKEN="0x27a4f163eaf83691fffd73f36c3eb6fe183bb1556498dc290d984ee7cb26981e7f9486eecc53509a628fe8d36f7b505f0f741e15d1cbe750e144266c6d19ae9001"
 STORAGE_UNITS="100"
-GPU_MODEL=""
-GPU_UNITS="0"
-GPU_PRICE="0"
-GPU_MEMORY="0"
-GPU_ID=""
+GPU_MODEL="t1000"
+GPU_UNITS="1"
+GPU_PRICE="31.5"
+GPU_MEMORY=""
+GPU_ID="1"
 OS_ID="linux"
 
 # Function to detect the operating system
